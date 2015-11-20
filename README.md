@@ -8,4 +8,4 @@ TODO:
 - vue demo： 通用项目文件结构，component，SPA。
 - 函数式编程库：map, reduce, filter。
 - karama + jasmine：TDD驱动开发。
-- 手写移动事件库：swipe, tap, doubletap
+- 手写移动事件库：swipe, tap, doubletap。
