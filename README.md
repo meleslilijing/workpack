@@ -8,4 +8,5 @@ TODO:
 - vue demo： 通用项目文件结构，component，SPA。
 - 函数式编程库：map, reduce, filter。(已完成)
 - karama + jasmine：TDD驱动开发。
+	> jasmine才是单元测试框架，karama是测试框架的运行环境（ **测试执行过程管理工具/Test Runner** ）
 - 手写移动事件库：swipe, tap, doubletap。
