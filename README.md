@@ -13,8 +13,8 @@ Just use in my work for save time
 
 ### be in common use code block
 - ajax
-  - image upload preview
-  - file upload
+- image upload preview
+- file upload
 
 ### data visualization
 - d3.js
