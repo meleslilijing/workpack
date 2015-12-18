@@ -1,6 +1,6 @@
 # my front-end TOOLBOX
-
-TODO:
+>
+Just use in my work for save time
 
 ### framwork quick start
 - angular:
