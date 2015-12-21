@@ -13,7 +13,7 @@ Just use in my work for save time
 - gulp
 
 ### be in common use code block
-- ajax: ajax function just use javaScript.
+- ajax: ajax function just use javaScript. https://github.com/meleslilijing/workpack/tree/master/ajax
 - promise: Async event in chain. Just for fun.
 - html5imagePreview: upload image. Need to preview image.
 - imageproxy: for image lazyload.
