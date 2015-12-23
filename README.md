@@ -18,10 +18,12 @@ Just use in my work for save time
 - html5imagePreview: upload image. Need to preview image.
 - imageproxy: for image lazyload.
 - cookie:
-- custom Event:
-- mobile Responsive page(rem):
+- custom Event: 
+- mobile page(rem): create Responsive-Page by rem unit
 
 ### other tools
 - d3.js: data Visualization in SVG.
 - ECharts.js: data visualization in Canvas.
 - hammer.js: Mobile touch event.
+- swiper.js:
+- touch.js:
