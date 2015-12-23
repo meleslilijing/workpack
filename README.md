@@ -25,5 +25,6 @@ Just use in my work for save time
 - d3.js: data Visualization in SVG.
 - ECharts.js: data visualization in Canvas.
 - hammer.js: Mobile touch event.
-- swiper.js:
-- touch.js:
+- swiper.js: just stand by swipe.
+- touch.js: mobile event
+- director.js: singleton page.  API:https://github.com/flatiron/director
