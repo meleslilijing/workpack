@@ -39,7 +39,7 @@ var ajax = {
 			}
 		}
 
-		xhr.setRequestHeader("Content-Type", "application/json");
+		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
 		xhr.send(data)
 	},
