@@ -1,14 +1,22 @@
+function encodeFormData(data) {
+	if(!data) return '';
+	var arr = [];
+	for(name in data) {
+		if(data.hasOwnProperty(name)) continue;
+		if(typeof data[name] === 'function') continue;
+		var value = data[name].toString();
+		name = encodeURIComponent(name.replace('%20', '+'));
+		value = encodeURIComponent(value.replace('%20', '+'));
+		arr.push(name+'='+value);
+	}
+	return arr.join('&');
+}
+
 var ajax = {
 	get: function(url, data, success, error) {
 		var xhr = new XMLHttpRequest();
 
-		var str = "";
-		for(key in data) {
-			str +="&" + key + "=" + data[key];
-		}
-		url += "?" + str.substring(1);
-
-		xhr.open('GET', url, true);
+		xhr.open('GET', url+'?'+encodeFormData(data), true);
 
 		xhr.onreadystatechange = function() {
 			if( xhr.readyState === 4 ) {
@@ -41,7 +49,7 @@ var ajax = {
 
 		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-		xhr.send(data)
+		xhr.send(encodeFormData(data));
 	},
 	file: function(url, data, success, error) {
 		var xhr = new XMLHttpRequest();
