@@ -29,7 +29,10 @@ Just use in my work for save time
 - touch.js: mobile event
 - director.js: singleton page.  API:https://github.com/flatiron/director
 
-### linux https://github.com/meleslilijing/workpack/tree/master/linux
+### linux 
+
+https://github.com/meleslilijing/workpack/tree/master/linux
+
 - Package manager
 - Terminal
 - vim
