@@ -1,10 +1,16 @@
 function encodeFormData(data) {
 	if(!data) return '';
 	var arr = [];
+	var name, value;
 	for(name in data) {
+		if(typeof data[name] === 'object') {
+			value = JSON.stringify(data[name]);
+			arr.push(name+'='+value);
+			continue;
+		}
 		if(data.hasOwnProperty(name)) continue;
 		if(typeof data[name] === 'function') continue;
-		var value = data[name].toString();
+		value = data[name].toString();
 		name = encodeURIComponent(name.replace('%20', '+'));
 		value = encodeURIComponent(value.replace('%20', '+'));
 		arr.push(name+'='+value);
