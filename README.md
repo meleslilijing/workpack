@@ -14,9 +14,8 @@ Just use in my work for save time
 
 ### be in common use code block(polyfill)
 - ajax: ajax function just use javaScript. https://github.com/meleslilijing/workpack/tree/master/ajax
+- asap:
 - promise: Async event in chain. Just for fun.
-- html5imagePreview: upload image. Need to preview image.
-- imageproxy: for image lazyload.
 - cookie:
 - custom Event: 
 - mobile page(rem): create Responsive-Page by rem unit
