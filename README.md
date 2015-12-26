@@ -37,3 +37,10 @@ https://github.com/meleslilijing/workpack/tree/master/linux
 - Terminal
 - vim
 - Git
+
+
+### Design patterns *\<Head First Design patterns\>*
+
+
+
+### Data structure
