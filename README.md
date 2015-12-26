@@ -12,7 +12,7 @@ Just use in my work for save time
 - webpack
 - gulp
 
-### be in common use code block
+### be in common use code block(polyfill)
 - ajax: ajax function just use javaScript. https://github.com/meleslilijing/workpack/tree/master/ajax
 - promise: Async event in chain. Just for fun.
 - html5imagePreview: upload image. Need to preview image.
