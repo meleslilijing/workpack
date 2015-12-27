@@ -29,7 +29,7 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 
 
 ### polyfill 	
->
+>	资料: https://github.com/inexorabletash/polyfill/
 	整理成polyfill项目, 当ES6的语法遇到兼容性问题的解决方案，也是常见的代码块。根据项目中遇到的问题补充
 	
 - ajax: ajax function just use javaScript. 
