@@ -1,10 +1,13 @@
-# My front-end TOOLBOX
+# My TOOLBOX
 >
 Just use in my work for save time  
 每周日睡前可切换processing  
 同时processing的任务不超过两个
 整理知识点为主  
 ps: 够看一年的了，完成60%就可以准备换工作了。
+
+## Log
+> 2015-12-28: TOOLBOX第一版提交。Happy New Year.
 
 ### framwork quick start
 - react: 用以开发下个项目，及早掌握，拿公司项目练手 *`processing`*
@@ -20,8 +23,9 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 
 
 ### build tools
-- webpack
-> 教程：https://github.com/vikingmute/webpack-for-fools *`processing`*
+- webpack:
+>
+	教程：https://github.com/vikingmute/webpack-for-fools *`processing`*
 
 
 ### polyfill 	
