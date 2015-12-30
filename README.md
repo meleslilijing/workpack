@@ -15,9 +15,14 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 	不确定是否作为之后项目的主要开发框架，确定之后在内部推广，同时积攒一些常用component.
 	考虑以下问题：  
 		1. 在移动端的性能如何  
-		2. 常见的配套插件有哪些: babel redux express react eslint karma css-loader superagent http-proxy compression hash
+		2. 常见的配套插件有哪些
 		3. 在组内推广的成本  
 		
+		环境列表：
+		- 离线转换: react-tools 
+		- chrom 调试插件: React Developer Tools
+		- 数据处理方案: flux, redux(推荐)
+		- 其他: babel express react eslint karma css-loader superagent http-proxy compression hash
 - angular: 用来做一个项目的大概内容，把‘运营后台改改就成’
 - vue: 用来做一个项目的大概内容 ‘把pc网厅改改就成’
 
