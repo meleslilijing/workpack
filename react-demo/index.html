@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='Content-type' content='text/html; charset=utf-8'>
+    <title>Basic Example</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="marked-example"></div>
+    
+    <script src="build/JSXTransformer.js"></script>
+    <script src="build/react.js"></script>
+    <script src="node_modules/marked/marked.min.js"></script>
+    <script type="text/jsx">
+      var data = [
+        {author: "Pete Hunt", text: "This is one comment"},
+        {author: "Jordan Walke", text: "This is *auther* comment"}
+      ];
+
+    	var CommentBox = React.createClass({
+        render: function() {
+          return (
+            <div>
+              <CommentList data={this.props.books}/>
+            </div>
+          )
+        }
+      })
+
+      var CommentList = React.createClass({
+        render: function() {
+          var commentNodes = this.props.data.map(function(comment) {
+            return (
+              <Comment author={ comment.author }>
+                { comment.text }
+              </Comment>
+            );
+          });
+
+          return (
+            <div>
+              <p>
+                This commentList data:
+              </p>
+              { commentNodes }
+            </div>
+          );
+        }
+      })
+
+      var Comment = React.createClass({
+        rawMarkedUp: function(text) {
+          var rawMarkedUp = marked(text.toString(), {sanitize: true});
+          return { __html: rawMarkedUp }
+        },
+
+        render: function() {
+          var author = this.props.author;
+          var text = this.props.children;
+          return (
+            <div>
+              <h2 dangerouslySetInnerHTML={ this.rawMarkedUp(author) } />
+              <p dangerouslySetInnerHTML={ this.rawMarkedUp(text) } />
+            </div>
+          )
+        }
+      })
+
+      React.render(
+        <CommentBox books={data}/>,
+        document.getElementById('container')
+      );
+    </script>
+  </body>
+</html>
