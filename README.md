@@ -18,7 +18,7 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 		2. 常见的配套插件有哪些
 		3. 在组内推广的成本  
 		
-		环境列表：
+		环境列表：https://github.com/facebook/react/wiki/Complementary-Tools
 		- 离线转换: react-tools 
 		- chrom 调试插件: React Developer Tools
 		- 数据处理方案: flux, redux(推荐)
