@@ -47,6 +47,7 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 - swiper.js: just stand by swipe.
 - touch.js: mobile event
 - director.js: singleton page.  API:https://github.com/flatiron/director
+- underscore.js: js的函数式支持。没必要学，用到的func自己写个就行。
 
 ### linux 常用命令
 >
