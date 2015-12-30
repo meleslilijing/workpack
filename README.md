@@ -15,7 +15,7 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 	不确定是否作为之后项目的主要开发框架，确定之后在内部推广，同时积攒一些常用component.
 	考虑以下问题：  
 		1. 在移动端的性能如何  
-		2. 常见的配套插件有哪些  
+		2. 常见的配套插件有哪些: babel redux express react eslint karma css-loader superagent http-proxy compression hash
 		3. 在组内推广的成本  
 		
 - angular: 用来做一个项目的大概内容，把‘运营后台改改就成’
