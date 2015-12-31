@@ -21,7 +21,8 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 		环境列表：https://github.com/facebook/react/wiki/Complementary-Tools
 		- 离线转换: react-tools 
 		- chrom 调试插件: React Developer Tools
-		- 数据处理方案: flux, redux(推荐)
+		- 数据处理方案: flux, redux(推荐), Immutable
+		- router: ReactRouter
 		- 其他: babel express react eslint karma css-loader superagent http-proxy compression hash
 - angular: 用来做一个项目的大概内容，把‘运营后台改改就成’
 - vue: 用来做一个项目的大概内容 ‘把pc网厅改改就成’
