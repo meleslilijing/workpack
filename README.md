@@ -7,8 +7,10 @@ Just use in my work for save time
 ps: 够看一年的了，完成60%就可以准备换工作了。
 
 ## Log
-> 2015-12-28: TOOLBOX第一版提交。Happy New Year.
-> 2016-01-04: react掌握，无reduce，无flux实现单页应用。
+> 
+	- 2015-12-28: TOOLBOX第一版提交。Happy New Year.
+	- 2016-01-04: react掌握，无reduce，无flux实现单页应用。
+
 
 ### framwork quick start
 - react: 用以开发下个项目，及早掌握，拿公司项目练手 *`DONE`*
