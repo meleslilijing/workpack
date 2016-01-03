@@ -8,9 +8,10 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 
 ## Log
 > 2015-12-28: TOOLBOX第一版提交。Happy New Year.
+> 2016-01-04: react掌握，无reduce，无flux实现单页应用。
 
 ### framwork quick start
-- react: 用以开发下个项目，及早掌握，拿公司项目练手 *`processing`*
+- react: 用以开发下个项目，及早掌握，拿公司项目练手 *`DONE`*
 >
 	不确定是否作为之后项目的主要开发框架，确定之后在内部推广，同时积攒一些常用component.
 	考虑以下问题：  
@@ -24,6 +25,7 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 		- 数据处理方案: flux, redux(推荐), Immutable
 		- router: ReactRouter
 		- 其他: babel express react eslint karma css-loader superagent http-proxy compression hash
+- reduce: reduce是一个与react结合的数据解决方案  *`processing`*
 - angular: 用来做一个项目的大概内容，把‘运营后台改改就成’
 - vue: 用来做一个项目的大概内容 ‘把pc网厅改改就成’
 
@@ -38,7 +40,6 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 >	资料: https://github.com/inexorabletash/polyfill/
 	整理成polyfill项目, 当ES6的语法遇到兼容性问题的解决方案，也是常见的代码块。根据项目中遇到的问题补充
 	
-- ajax: ajax function just use javaScript. 
 - asap: 选做，最多花3个睡前时间。`promise中，最后执行resolve或reject的时候会用到`
 - promise: Async event in chain. Just for fun. `记得重现代码实现, 看别人的实现太熟了，和背出来的没有区别，这样意义不大。等一段时间重新再说。`
 - cookie: `get,set，理解那段正则的实现方式。`
@@ -54,6 +55,7 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 - touch.js: mobile event
 - director.js: singleton page.  API:https://github.com/flatiron/director
 - underscore.js: js的函数式支持。没必要学，用到的func自己写个就行。
+- polyfill: es5-sham
 
 ### linux 常用命令
 >
@@ -90,12 +92,9 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 - 笔记
 
 ### 计算机程序的构造和解释
-- 笔记，书上联系。只看1,2,3章节
+- 笔记，书上练习。只看1,2,3章节
 
-### Data structure
-- 笔记
-- 具体内容和黄老板聊过了再说
-- python和javascript实现
+### leetCode
 
 ### 函数式编程 *\<JS函数式编程\>*
 书：https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details
