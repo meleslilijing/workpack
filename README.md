@@ -27,6 +27,8 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 		- 数据处理方案: flux, redux(推荐), Immutable
 		- router: ReactRouter
 		- 其他: babel express react eslint karma css-loader superagent http-proxy compression hash
+		- 部署：https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html 
+		
 - reduce: reduce是一个与react结合的数据解决方案  *`processing`*
 - angular: 用来做一个项目的大概内容，把‘运营后台改改就成’
 - vue: 用来做一个项目的大概内容 ‘把pc网厅改改就成’
