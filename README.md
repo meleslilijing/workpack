@@ -12,6 +12,7 @@ ps: 够看一年的了，完成60%就可以准备换工作了。
 	- 2016-01-04: react掌握，无reduce，无flux实现单页应用。
 	- 2016-01-10: 加了一周班。
 	- 2016-01-17: 加了一周班。
+	- 2016-02-16: 看来我真不适合这种写log的方式。<Linux command line>看完了。React系列除了Redux和本地local mock server其他也搞定了。
 
 
 ### framwork quick start
